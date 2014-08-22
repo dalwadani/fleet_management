@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fleet_management *.css
+recursive-include fleet_management *.csv
+recursive-include fleet_management *.html
+recursive-include fleet_management *.ico
+recursive-include fleet_management *.js
+recursive-include fleet_management *.json
+recursive-include fleet_management *.md
+recursive-include fleet_management *.png
+recursive-include fleet_management *.py
+recursive-include fleet_management *.svg
+recursive-include fleet_management *.txt
+recursive-exclude fleet_management *.pyc
